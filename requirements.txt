@@ -1,0 +1,16 @@
+# Librerías principales de procesamiento y deep learning
+tensorflow==2.15.0
+numpy==1.23.5
+matplotlib==3.7.1
+scikit-learn==1.2.2
+
+# Procesamiento de imágenes
+Pillow==9.4.0
+
+# Opcional (para evitar errores de compatibilidad con sistemas Windows)
+h5py==3.8.0
+absl-py==1.4.0
+protobuf==3.20.*
+
+# Recomendado para evitar conflictos con keras/tensorflow internos
+keras==2.15.0
