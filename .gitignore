@@ -1,0 +1,15 @@
+# Archivos de Python
+__pycache__/
+*.pyc
+
+# Entornos virtuales comunes
+env/
+venv/
+.venv/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar la carpeta dataset
+dataset/
