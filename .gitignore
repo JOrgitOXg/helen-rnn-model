@@ -11,5 +11,15 @@ venv/
 .DS_Store
 Thumbs.db
 
-# Ignorar la carpeta dataset
+# Ignorar la carpeta dataset (incluyendo cualquier archivo dentro)
 dataset/
+
+# Ignorar carpetas comprimidas de modelos
+modelos/
+
+# Excepciones
+!probar_modelo.py
+!README.md
+!requirements.txt
+!rnn_lengua_senas.py
+!test_image.jpg
